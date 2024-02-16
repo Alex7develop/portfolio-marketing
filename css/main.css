@@ -31,7 +31,7 @@ body {
 	z-index: 100;
 	width: 100%;
 	height: calc(var(--index) * 10);
-	background-image: url(../img/ground.png);
+	/* background-image: url(../img/ground.png); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -125,4 +125,22 @@ body {
 	opacity: .45;
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 265px; /* фиксированная ширина кнопки */
+  height: 50px; /* фиксированная высота кнопки */
+  background-color: #025e59; /* темно-зеленый цвет */
+  color: white; /* белый цвет текста */
+  text-decoration: none; /* убираем подчеркивание ссылок */
+  border-radius: 5px; /* закругляем углы кнопок */
+  transition: background-color 0.3s; /* добавляем плавный переход при изменении цвета фона */
+}
+
+.button:hover {
+  background-color: #c6b127; /* изменяем цвет кнопки при наведении */
 }
