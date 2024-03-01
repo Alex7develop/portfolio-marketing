@@ -129,9 +129,9 @@ body {
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   margin: 5px;
-  width: 280px; /* фиксированная ширина кнопки */
+  width: 260px; /* фиксированная ширина кнопки */
   height: 50px; /* фиксированная высота кнопки */
   background-color: #025e59; /* темно-зеленый цвет */
   color: white; /* белый цвет текста */
